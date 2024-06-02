@@ -1,0 +1,50 @@
+body{
+  background-color: black;
+
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.but{
+  height: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  background-color: #5a5a5a;
+  color: white;
+  flex: 1;
+}
+
+.button-wrap{
+  background-color: white;
+  width: 400px;
+  border-radius: 16px;
+}
+
+.row{
+  display: flex;
+
+}
+
+.inpu{
+  height: 5em;
+  font-size: 24px;
+  flex: 1;
+  text-align: right;
+  padding-right: 16px;
+}
+
+.text{
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.result{
+  font-size: 30px;
+  margin-top: 10px;
+}
