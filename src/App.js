@@ -13,6 +13,17 @@ function App() {
   function handleText(val){
     setText(text+val);
     setResult(val)
+    const t=text+val;
+    contraints(t);
+  }
+
+  function contraints(t){
+    if(text.includes('++')||text.includes('--')||text.includes('**')||text.includes('//')||text.includes('..')||text.includes('+-')||text.includes('-+')||text.includes('*/')||text.includes('/*')){
+      setResult('Syntax not allowed');
+      setText('');
+    }else{
+      setResult(t);
+    }
   }
 
   function cal(){

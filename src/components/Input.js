@@ -1,7 +1,7 @@
 import React from 'react'
 import '../App.css'
 
-function Input({text, result}) {
+function Input({text, result, con}) {
   return (
     <div>
       <div className='input'>
