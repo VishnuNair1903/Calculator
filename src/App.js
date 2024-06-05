@@ -4,7 +4,6 @@ import Input from './components/Input';
 import { useState } from 'react';
 import * as math from 'mathjs';
 
-
 function App() {
   const button_color="#f2a33c"
   const [text, setText] = useState('')
@@ -12,12 +11,12 @@ function App() {
 
 
   function handleText(val){
-    setText((text)=>[...text, val + " "]);
+    setText(text+val);
+    setResult(val)
   }
 
   function cal(){
-    const input=text.join('');
-    setResult(math.evaluate(input));
+    setResult(math.evaluate(text));
   }
 
   function handleClear(){

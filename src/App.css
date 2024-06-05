@@ -1,3 +1,5 @@
+
+
 body{
   background-color: black;
 
@@ -7,6 +9,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .but{
@@ -21,9 +24,12 @@ body{
 }
 
 .button-wrap{
-  background-color: white;
+  background-color: #5a5a5a;
   width: 400px;
   border-radius: 16px;
+  padding: 16px;
+  
+
 }
 
 .row{
@@ -31,20 +37,25 @@ body{
 
 }
 
-.inpu{
+.input{
+  background-color: black;
+  padding: 16px;
+  margin-top: 5px;
+  margin-bottom: 15px;
   height: 5em;
   font-size: 24px;
   flex: 1;
   text-align: right;
   padding-right: 16px;
+  color: white;
 }
 
 .text{
   font-size: 24px;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .result{
-  font-size: 30px;
-  margin-top: 10px;
+  font-size: 40px;
+  margin-top: 15px;
 }
